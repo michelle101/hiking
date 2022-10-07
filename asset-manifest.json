@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/hiking/home/static/css/main.d5c9b7ca.css",
-    "main.js": "/hiking/home/static/js/main.b2fb442f.js",
-    "static/media/slide1.jpg": "/hiking/home/static/media/slide1.7891694c8c45f43d349e.jpg",
-    "static/media/rip_bottom.png": "/hiking/home/static/media/rip_bottom.21bfbbb129f98e4a81b5.png",
-    "static/media/rip_top.png": "/hiking/home/static/media/rip_top.2c1f2f32438753fd9d60.png",
-    "static/media/logo.png": "/hiking/home/static/media/logo.f7ab1fe78b666a8c6e69.png",
-    "static/media/search.png": "/hiking/home/static/media/search.02f5b700e39ebc2d269a.png",
-    "static/media/slide2.jpg": "/hiking/home/static/media/slide2.9dcee68222396104701d.jpg",
-    "static/media/slide3.jpg": "/hiking/home/static/media/slide3.e2ae09484cbc846c4f69.jpg",
-    "static/media/slick.svg": "/hiking/home/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/hiking/home/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/hiking/home/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/hiking/home/static/media/slick.295183786cd8a1389865.woff",
-    "index.html": "/hiking/home/index.html",
-    "main.d5c9b7ca.css.map": "/hiking/home/static/css/main.d5c9b7ca.css.map",
-    "main.b2fb442f.js.map": "/hiking/home/static/js/main.b2fb442f.js.map"
+    "main.css": "/hiking/static/css/main.2bdebb6c.css",
+    "main.js": "/hiking/static/js/main.9e680988.js",
+    "static/media/slide1.jpg": "/hiking/static/media/slide1.7891694c8c45f43d349e.jpg",
+    "static/media/rip_bottom.png": "/hiking/static/media/rip_bottom.21bfbbb129f98e4a81b5.png",
+    "static/media/rip_top.png": "/hiking/static/media/rip_top.2c1f2f32438753fd9d60.png",
+    "static/media/logo.png": "/hiking/static/media/logo.f7ab1fe78b666a8c6e69.png",
+    "static/media/search.png": "/hiking/static/media/search.02f5b700e39ebc2d269a.png",
+    "static/media/slide2.jpg": "/hiking/static/media/slide2.9dcee68222396104701d.jpg",
+    "static/media/slide3.jpg": "/hiking/static/media/slide3.e2ae09484cbc846c4f69.jpg",
+    "static/media/slick.svg": "/hiking/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/hiking/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/hiking/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/hiking/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/hiking/index.html",
+    "main.2bdebb6c.css.map": "/hiking/static/css/main.2bdebb6c.css.map",
+    "main.9e680988.js.map": "/hiking/static/js/main.9e680988.js.map"
   },
   "entrypoints": [
-    "static/css/main.d5c9b7ca.css",
-    "static/js/main.b2fb442f.js"
+    "static/css/main.2bdebb6c.css",
+    "static/js/main.9e680988.js"
   ]
 }
