@@ -16,10 +16,10 @@ function App() {
           <div className="logo"><NavLink to="/home"><img src={logo} alt='' /></NavLink></div>
           <div className="main-menu">
             <ul>
-              <li><NavLink to="hiking/home" className={({isActive})=> isActive && activeClassName}>Home </NavLink><span></span></li>
-              <li><NavLink to="hiking/store" className={({isActive})=> isActive && activeClassName}>Store </NavLink><span></span></li>
-              <li><NavLink to="hiking/our-story" className={({isActive})=> isActive && activeClassName}>Our Story</NavLink><span></span></li>
-              <li><NavLink to="hiking/contact-us" className={({isActive})=> isActive && activeClassName}>Contact Us</NavLink><span></span></li>
+              <li><NavLink to="/hiking/home" className={({isActive})=> isActive && activeClassName}>Home </NavLink><span></span></li>
+              <li><NavLink to="/hiking/store" className={({isActive})=> isActive && activeClassName}>Store </NavLink><span></span></li>
+              <li><NavLink to="/hiking/our-story" className={({isActive})=> isActive && activeClassName}>Our Story</NavLink><span></span></li>
+              <li><NavLink to="/hiking/contact-us" className={({isActive})=> isActive && activeClassName}>Contact Us</NavLink><span></span></li>
             </ul>
           </div>
           <div className="search-box"><input type='search' /></div>
