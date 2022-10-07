@@ -1,0 +1,31 @@
+.home-wrapper{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 100px;
+    float:left;
+}
+
+.home-gallery{
+    float:left;
+    width:100%;
+    padding-top: 80px;
+}
+.home-gallery h1{
+    float: left;
+    width: 100%;
+    text-align:center;
+    text-transform: uppercase;
+    color:  #e2a355;
+    font-size:4vw;
+    font-weight: bolder;
+    text-shadow: 1px 1px #54524f;
+}
+.home-gallery p{
+    float:left;
+    width: 100%;
+    text-align: center;
+    font-size: 2vw;
+    color:#7f7770;
+    padding: 50px 15vw;
+}

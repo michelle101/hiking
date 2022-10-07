@@ -1,0 +1,93 @@
+.thumbnail-slider-wrap{
+    display:none;
+}
+
+.slider-wrapper{
+    float:left;
+    width: 100%;
+    z-index: 10;
+}
+
+.slick-slide{
+   float:left;
+   width: 100%;
+
+}
+
+.slick-slide-image img{
+    float:left;
+    width: 100%;
+}
+
+.slick-slide-title{
+  position: absolute; 
+  width: 50%;
+  margin-left: 10px; 
+  
+}
+.slick-slide-title h2{
+    color: #deb37e;
+    float:left;
+    padding-top: 15vw;
+    font-weight:bolder;
+    font-size: 5vw;
+    text-transform:uppercase;
+    text-shadow: 1px 1px #54524f;
+}
+
+.slick-slide-label{
+    position: absolute;
+    top: 28vw;
+    font-weight: bold;
+    font-size: 1.5vw;
+    text-transform: uppercase;
+    font-style: italic;
+    color: #54524f;
+    text-shadow: 1px 1px #deb37e;
+    margin-left: 10px;
+}
+
+.paragraph{
+    position:absolute;
+    top: 38vw;
+    font-size: 1.5vw;
+    font-weight: 400;
+    padding-left: 10px;
+    width: 50%;
+    color: #54524f;
+}
+
+.slide-button{
+    position: absolute;
+    top: 32vw;
+    left: 20px;
+    z-index: 20;
+}
+.slide-button button{
+    border: none;
+    background-color: #fefefd;
+    color: #776c64;
+    font-size: 20px;
+    padding:  15px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor:pointer;
+}
+.slide-button button:hover{
+    color: #54524f;
+    background-color: #deb37e;
+}
+.rip-bottom{
+    position: absolute;
+    top: 58vw;
+}
+.rip-bottom img{
+    float:left;
+    width: 100%;
+}
+
+@media only screen and (max-width: 930px){
+    .slick-slide-title h2{ font-size: 50px;}
+}
+
