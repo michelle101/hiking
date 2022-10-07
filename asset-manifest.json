@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/hiking/home/static/css/main.d5c9b7ca.css",
-    "main.js": "/hiking/home/static/js/main.68ac83e7.js",
+    "main.js": "/hiking/home/static/js/main.b2fb442f.js",
     "static/media/slide1.jpg": "/hiking/home/static/media/slide1.7891694c8c45f43d349e.jpg",
     "static/media/rip_bottom.png": "/hiking/home/static/media/rip_bottom.21bfbbb129f98e4a81b5.png",
     "static/media/rip_top.png": "/hiking/home/static/media/rip_top.2c1f2f32438753fd9d60.png",
@@ -15,10 +15,10 @@
     "static/media/slick.woff": "/hiking/home/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/hiking/home/index.html",
     "main.d5c9b7ca.css.map": "/hiking/home/static/css/main.d5c9b7ca.css.map",
-    "main.68ac83e7.js.map": "/hiking/home/static/js/main.68ac83e7.js.map"
+    "main.b2fb442f.js.map": "/hiking/home/static/js/main.b2fb442f.js.map"
   },
   "entrypoints": [
     "static/css/main.d5c9b7ca.css",
-    "static/js/main.68ac83e7.js"
+    "static/js/main.b2fb442f.js"
   ]
 }
