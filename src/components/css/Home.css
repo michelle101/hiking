@@ -29,3 +29,412 @@
     color:#7f7770;
     padding: 50px 15vw;
 }
+.gallery{
+    float:left;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 70px 10%;
+    color:#fff;
+}
+.card{
+    background-color: #7f7770;
+}
+.card-image img{
+    float: left;
+    width: 100%;
+}
+.card-body{
+    font-size: 2vw;
+    font-weight: bolder;
+    float: left;
+    width: 100%; 
+    padding: 20px;
+}  
+
+.card-para{
+    font-size: 1.5vw;
+    font-weight: 100;
+    float: left;
+    width: 100%;
+    padding:  0 20px 50px 20px;
+}
+
+.btn-loadmore{
+    border:none;
+  font-size: 20px;
+  padding:  15px;
+  background-color: #7f7770;
+  border-radius: 25px;
+  width: 185px;
+  text-transform: uppercase;
+  font-weight:bolder;
+  color:#fff;
+  cursor: pointer;
+}
+
+.btn-loadmore:hover{
+    background-color: #deb37e;
+    color: #54524f;
+}
+.btn-loadmore:hover .disabled{
+    background-color:#54524f;
+    color:#fff;
+}
+
+.load-more{
+    grid-column:1/-1;
+    text-align: center;
+    height: 100px;
+}
+
+.home-offers {
+    float: left;
+    width: 100%;
+    padding-top: 100px;
+    
+}
+.offer-right{
+    background-color:#7f7770;
+    color: #fff;
+    float:left;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.offer-image{
+    float:left;
+    width: 50%;
+}
+.offer-text{
+    float:left;
+    width:  50%;
+}
+.offer-right  img{
+    float:left;
+    width: 100%;
+}
+.offer-right h2{
+    font-size: 5vw;
+    text-align: left;
+    padding-left: 30px;
+}
+.offer-text p{
+    float:left;
+    padding-left: 30px;
+    padding-right: 100px;
+}
+
+.offer-left{
+    background-color: #deb37e;
+}
+
+.offer-btn{
+    background-color: #e2a355;
+    margin:30px;
+}
+
+.offer-btn:hover{
+    background-color: #54524f;
+}
+.offer-rip-bottom{
+    float:left;
+    width: 100%;
+}
+.white-gap{
+    float:left;
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+}
+
+.hike-mt{
+    float:left;
+    width: 100%;
+    background-color: #54524f;
+    text-align: center;
+    padding:0;
+    margin:0;
+    
+}
+.hike-mt h2{
+    float:left;
+    width:  100%;
+    padding: 5% 20% 0 20%;
+    text-align: center;
+    color: #fff;
+    font-size: 4vw;
+}
+
+.hike-mt p{
+    color: #fff;
+    font-size: 1.8vw;
+    float:left;
+    width: 100%;
+    padding: 5% 20%;
+    font-weight: 100;
+}
+.hike-rip-bottom{
+    float:left;
+    width: 100%;
+    padding:0;
+    margin:0;
+}
+.hike-rip-bottom img{
+    float:left;
+    width: 100%;
+}
+
+.climbing{
+    float:left;
+    width: 100%;
+    display:grid;
+}
+.climbing-top{
+    grid-column: 1/-1;
+    grid-row:  1/1; 
+}
+.climbing-top img{
+    float:left;
+    width: 100%;
+}
+.climbing-image{
+    grid-column: 1/-1;
+    grid-row:  1/-1;
+    
+}
+.climbing-image img{
+    float:left;
+    width: 100%;
+    height: auto;
+}
+
+.saying{
+    float:left;
+    width: 100%;
+}
+.saying-top{
+    float:left;
+    width: 100%;
+    margin-top: -75px;
+}
+.sayings-selected{
+    float:left;
+    width: 100%;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5vw;
+    padding: 5vw;
+}
+.sayings-box h3{
+    font-size: 2.1vw;
+    float:left;
+    width: 100%;
+    padding-bottom: 30px;
+    color: #deb37e;
+}
+.sayings-box p{
+    color: #333d42;
+}
+.open-quote{
+    grid-column: 1/-1;
+    text-align: center;
+    color:#333d42;
+    font-size: 10vw;
+    font-weight: bolder;
+}
+.quote{
+    grid-column: 1/-1;
+    text-align: center;
+    padding: 0 10vw;
+    margin-top: -100px;
+}
+.quote p{
+    font-size: 2.5vw; 
+    color: #3f3f3f;
+}
+.quote-name{
+    grid-column: 1/-1;
+    text-align:center;
+    font-size: 1.8vw;
+    color: #3f3f3f;
+    margin-top:-50px;
+    font-weight: bold; 
+}
+.sayings-bottom{
+    grid-column: 1/-1;
+}
+
+.subscription{
+    float:left;
+    width: 100%;
+    background-color: #e2a355;
+}
+.subscription h1{
+    float:left;
+    width: 100%;
+    text-align: center;
+    font-size: 5vw;
+    color: #fff;
+}
+.subscription p{
+    float:left;
+    width: 100%;
+    padding: 5vw 20vw;
+    font-size: 2vw;
+    text-align: center;
+    color: #54524f;
+}
+.subscribe-input{
+    float:left;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 100px;
+}
+.subscribe-input input{
+    background-color:#7f7770;
+    background-image:none;
+    width: 40%;
+    display:inline-block;
+    color:#fff;
+}
+.subscribe-input button{
+    margin-left: -100px;
+    background:#3f3f3f;
+}
+.subscribe-input button:hover{
+    background-color:#deb37e;
+}
+.subscription .rip-top{
+    float:left;
+    width: 100%;
+}
+.subscription .subs-rip-bottom{
+    float:left;
+    width: 100%;
+}
+
+.footer{
+    float:left;
+    width: 100%;
+    background-color: #7f7770;
+    color: #fff;
+    padding-bottom: 100px;
+}
+.footer img{
+    float:left;
+    width: 100%;
+}
+.footer .footer-blocks{
+    float:left;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 50px;
+    padding: 0 5vw;
+}
+.footer-blocks h4{
+    float:left;
+    width: 100%;
+    font-size: 2vw;
+    font-weight: 100;
+    padding-bottom: 30px;
+}
+.footer-blocks p{
+    float:left;
+    width: 70%;
+    font-size: 1.5vw;
+    font-weight: 100;
+}
+.footer-blocks a{
+    text-decoration: none;
+    color: #fff;
+    float:left;
+    width: 100%;
+    font-size: 1.5vw;
+    font-weight: 100;
+    cursor: pointer;
+    padding-bottom: 10px;
+}
+.footer-blocks a:hover{
+    text-decoration: underline;
+}
+.social-icons{
+    float:left;
+    width:100%;
+    padding: 30px 0; 
+}
+.social-icons a{
+    float:left;
+    width: 42px;
+}
+.social-icons a img{
+    float:left;
+    width: 42px;
+    padding-right: 15px;
+}
+
+@media only screen and (max-width: 900px){
+    .home-gallery h1{
+        font-size: 40px;
+    }
+    .gallery{
+        gap: 30px 5%;
+    }
+    .card-body{
+        font-size: 18px;
+    }
+    .card-para{
+        font-size: 14px;
+    }
+    .hike-mt p{
+        font-size: 16px;
+        padding:  5% 10%;
+    }
+    .sayings-box h3{
+        font-size:22px;
+    }
+    .quote p{
+        margin-top: 50px;
+    }
+    .quote-name{
+        margin-top: -25px;
+    }
+    .subscription p{
+        font-size: 18px;
+    }
+    .footer-blocks h4{
+        font-size: 20px;
+    }
+    .footer-blocks p{
+        font-size: 14px;
+    }
+    .footer-blocks a{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    .offer-right h2{
+        font-size: 18px;
+    }
+    .offer-text p{
+        font-size: 14px;
+        padding-top:30px;
+        padding-right: 30px;
+    }
+    button{
+        font-size: 14px;
+        padding: 10px;
+    }
+    .subscribe-input button{
+        width:  150px;
+        padding:9px;
+    }
+    .subscribe-input input{
+        width: 60%;
+        padding: 7px;
+    }
+}

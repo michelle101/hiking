@@ -60,7 +60,7 @@
 .slide-button{
     position: absolute;
     top: 32vw;
-    left: 20px;
+    left: 10px;
     z-index: 20;
 }
 .slide-button button{
@@ -80,14 +80,41 @@
 }
 .rip-bottom{
     position: absolute;
-    top: 58vw;
+    top: 60vw;
 }
 .rip-bottom img{
     float:left;
     width: 100%;
 }
 
-@media only screen and (max-width: 930px){
-    .slick-slide-title h2{ font-size: 50px;}
+@media only screen and (max-width:1078px){
+    .slick-slide-label{
+        top: 30vw;
+    }
+    .slide-button{
+        top: 33vw;
+    }
+    .paragraph{
+        top: 40vw;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    .slick-slide-label{
+       font-size: 16px;
+    }
+    .slide-button{
+        top: 35vw;
+    }
+    .paragraph{
+        top: 45vw;
+        font-size: 16px;
+        width: 80%;
+    }
+    .slide-button button{
+        font-size: 16px; 
+        padding: 10px;
+    }
+    
 }
 
