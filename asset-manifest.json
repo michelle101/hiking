@@ -1,11 +1,18 @@
 {
   "files": {
-    "main.css": "/hiking/static/css/main.2bdebb6c.css",
-    "main.js": "/hiking/static/js/main.33857cdc.js",
+    "main.css": "/hiking/static/css/main.ac31707c.css",
+    "main.js": "/hiking/static/js/main.ff31fd04.js",
+    "static/media/climbing.jpg": "/hiking/static/media/climbing.5c22aa2a534ec7c5cd02.jpg",
+    "static/media/mini2_big.jpg": "/hiking/static/media/mini2_big.507f189885ee47882f56.jpg",
     "static/media/slide1.jpg": "/hiking/static/media/slide1.7891694c8c45f43d349e.jpg",
+    "static/media/mini4_big.jpg": "/hiking/static/media/mini4_big.899a88660f81fb74db06.jpg",
     "static/media/rip_bottom.png": "/hiking/static/media/rip_bottom.21bfbbb129f98e4a81b5.png",
     "static/media/rip_top.png": "/hiking/static/media/rip_top.2c1f2f32438753fd9d60.png",
     "static/media/logo.png": "/hiking/static/media/logo.f7ab1fe78b666a8c6e69.png",
+    "static/media/instagram.png": "/hiking/static/media/instagram.f0e9193bf4172de34416.png",
+    "static/media/phone.png": "/hiking/static/media/phone.99e6815fc9c2505743dd.png",
+    "static/media/twitter.png": "/hiking/static/media/twitter.f2561594c6928974f821.png",
+    "static/media/facebook.png": "/hiking/static/media/facebook.1e7af2f1e0f8452e3af8.png",
     "static/media/search.png": "/hiking/static/media/search.02f5b700e39ebc2d269a.png",
     "static/media/slide2.jpg": "/hiking/static/media/slide2.9dcee68222396104701d.jpg",
     "static/media/slide3.jpg": "/hiking/static/media/slide3.e2ae09484cbc846c4f69.jpg",
@@ -14,11 +21,11 @@
     "static/media/slick.ttf": "/hiking/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/hiking/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/hiking/index.html",
-    "main.2bdebb6c.css.map": "/hiking/static/css/main.2bdebb6c.css.map",
-    "main.33857cdc.js.map": "/hiking/static/js/main.33857cdc.js.map"
+    "main.ac31707c.css.map": "/hiking/static/css/main.ac31707c.css.map",
+    "main.ff31fd04.js.map": "/hiking/static/js/main.ff31fd04.js.map"
   },
   "entrypoints": [
-    "static/css/main.2bdebb6c.css",
-    "static/js/main.33857cdc.js"
+    "static/css/main.ac31707c.css",
+    "static/js/main.ff31fd04.js"
   ]
 }
