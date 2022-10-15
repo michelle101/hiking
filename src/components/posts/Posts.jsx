@@ -8,7 +8,7 @@ function Posts() {
   const [index, setIndex] = useState(3)
   const initialPosts = slice(post, 0, index)
   const getData = () => {
-    fetch('http://localhost:3000/hiking/data.json')
+    fetch('https://raw.githubusercontent.com/michelle101/hiking/gh-pages/data.json')
       .then((res) => res.json())
       .then((json) => setPost(json))
       .catch((e) => console.log(e))
