@@ -1,12 +1,14 @@
 import React, { useState, useEffect } from 'react'
 import { slice } from 'lodash'
+import jsonData from "./data.json";
+
 function Posts() {
   const [post, setPost] = useState([])
   const [isCompleted, setIsCompleted] = useState(false)
   const [index, setIndex] = useState(3)
   const initialPosts = slice(post, 0, index)
   const getData = () => {
-    fetch('https://raw.githubusercontent.com/michelle101/hiking/gh-pages/static/js/data.json')
+    fetch('http://localhost:3000/hiking/data.json')
       .then((res) => res.json())
       .then((json) => setPost(json))
       .catch((e) => console.log(e))

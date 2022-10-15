@@ -118,3 +118,42 @@
     
 }
 
+@media only screen and (max-width: 400px){
+    .slide-button button{
+        font-size: 12px;
+        padding:5px 10px;
+        width: auto;
+    }
+    .slick-slide-label{
+        font-size: 14px;
+    }
+    .paragraph{
+        top: 43vw;
+        font-size: 12px;
+        width: 90%;
+        text-shadow: 0.5px 0.5px #776c64;
+    }
+}
+
+@media only screen and (max-width: 350px){
+    .slick-slide-title{width: 100%;}
+    .slide-button button{
+        font-size: 12px;
+        padding:5px 10px;
+        width: auto;
+    }
+    .slick-slide-label{
+        font-size: 12px;
+        top: 23vw;
+    }
+    .slide-button{
+        top: 31vw;
+    }
+    .paragraph{
+        top: 43vw;
+        font-size: 12px;
+        width: 90%;
+        text-shadow: 0.5px 0.5px #776c64;
+    }
+}
+

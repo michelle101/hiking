@@ -438,3 +438,54 @@
         padding: 7px;
     }
 }
+
+@media only screen and (max-width:600px){
+    .home-gallery{padding-top: 50px;}
+    .home-gallery h1{font-size: 30px;}
+    .home-gallery p{
+        font-size: 12px;
+        padding-top: 25px;
+    }
+    .btn-loadmore{
+        font-size:14px;
+        padding: 10px;
+        width: auto;
+    }
+}
+
+@media only screen and (max-width:500px){
+    .gallery{
+        grid-template-columns: 1fr;
+    }
+    .offer-right{
+        display:block;
+    }
+    .offer-image{
+        width: 100%;
+    }
+    .offer-text{
+        width: 100%;
+    }
+    .offer-right h2{
+        padding-top: 30px;
+    }
+    .sayings-selected{
+        grid-template-columns: 1fr;
+    }
+    .quote p{
+        padding-top: 20px;
+        font-size:12px;
+    }
+    .quote-name{
+        margin-top: -10px;
+    }
+
+}
+
+@media only screen and (max-width:400px){
+    .home-gallery {padding-top: 25px;}
+    .home-gallery h1{font-size: 20px;}
+    .footer .footer-blocks{
+        grid-template-columns: 1fr;
+    }
+}
